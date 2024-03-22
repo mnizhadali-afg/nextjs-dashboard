@@ -13,6 +13,14 @@ const iconMap = {
   invoices: InboxIcon,
 };
 
+// Test
+const {
+  totalPaidInvoices,
+  totalPendingInvoices,
+  numberOfCustomers,
+  numberOfInvoices,
+} = await fetchCardData();
+
 export default async function CardWrapper() {
   return (
     <>
